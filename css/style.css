@@ -1,0 +1,71 @@
+*{
+    font-family: arial, helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+body{
+background-image: url(http://tedxvalencia.com/wp-content/uploads/2013/05/background_twitter_1920x1080.jpg);}
+.top-section .content{
+    background-color: #000000;
+}
+.top-section .content h1 {
+    font-family: 'Playfair Display', serif;
+    color:#ffffff;
+    font-size: 2.5em;
+}
+.content{padding: 20px;}
+.listapp .content h2 {
+    color: 	#2E8B57;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.1em;
+}
+/*text styles*/
+.listapp .content .text {
+    font-family:'Shadows Into Light', cursive;
+    width: 500px;
+    font-size: 2em;
+    border: 3px solid gray;
+    border-radius: 15px;}
+/*input styles*/
+.listapp .content .button {
+    width: 150px;
+    height: 75px;
+    background-color: #2E8B57;
+    border: 1px solid #2E8B57;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.listapp .content .button:hover{
+	background-color: gray;
+	color:white;
+    cursor:pointer;
+}
+
+/*list styles*/
+.listapp .content .content-products .shopping-list .listitem{
+    list-style: none;
+    text-align: left;
+    width: 71%;
+    font-size: 40px;
+    color: navy;
+    float: right;
+}
+
+/*button list style*/
+.listapp .content .content-products .shopping-list .delete{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: darkred;
+    color: white;
+    border: 2px solid darkred;
+}
+/*button list style*/
+.listapp .content .content-products .shopping-list .delete:hover{
+  
+    background-color: orange;
+    color: black;
+    border: 2px solid orange;
+}
